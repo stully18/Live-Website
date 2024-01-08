@@ -5,9 +5,12 @@ body{
     background-size: cover;
 }
 .box{
-    width: 450px;
+    width: 600px;
     background: rgba(0,0,0,0.4);
-    padding: 40px;
+    padding-left: 40px;
+    padding-top: 40px;
+    padding-right: 40px;
+    padding-bottom: 10px;
     text-align: center;
     margin: auto;
     margin-top: 5%;
@@ -54,4 +57,22 @@ ul{
 }
 .box li a:hover{
     color: #a0a0a0;
+}
+
+.input button{
+    background-color: black;
+    color: white;
+    font-size: 1.01em;
+}
+.input input{
+    color: white;
+    background-color: black;
+}
+.input *{
+    margin-top: 5px;
+}
+.input #usersName{
+    color: rgb(255, 208, 208);
+    font-size: 1.4em;
+    margin-top: 10px;
 }
