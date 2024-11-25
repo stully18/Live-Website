@@ -3,9 +3,6 @@ body {
     background-size: cover;
     margin: 0;
     padding: 0;
-    height: 100vh; 
-    display: flex;
-    align-items: center; 
 }
 
 .container {
@@ -13,8 +10,9 @@ body {
     flex-direction: row;
     align-items: center;
     padding: 10px;
+    
 }
-
+ 
 .box {
     width: 600px;
     background: rgba(0, 0, 0, 0.4);
@@ -23,7 +21,9 @@ body {
     color: white;
     font-family: 'Century Gothic', sans-serif;
     justify-content: center;
-    margin: 2px;
+    margin: auto;
+    margin-top: 5%;
+    align-items: center;
 }
 
 .box-img {
